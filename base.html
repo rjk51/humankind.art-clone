@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humankind</title>
+    <link rel="stylesheet" href="/dropdown.css">
+    <link rel="stylesheet" href="/fonts/custom.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
+    <style>
+        body {
+          font-family: 'TT Commons Bold', sans-serif;
+        }
+        /* Navigation Bar Styles */
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #00000000;
+          height: 60px;
+          padding: 0 10px;
+          position: fixed;
+          top: 9px;
+          left: 0;
+          right: 0;
+          z-index: 999;
+        }
+        /*favicon*/
+        .logo {
+          display: flex;
+          align-items: center;
+          font-family: "TT Commons", sans-serif;
+          padding: 16px 0;
+          margin-top: -25px;
+        }
+
+        .logo img {
+            display: inline-block;
+            width: 2.4rem;
+            max-width: 2.4rem;
+            margin-right: 0.3rem;
+        }
+        .logo h1 {
+          font-size: 1.2rem;
+          margin: 0;
+          font-weight: 800;
+        }
+
+
+
+        .human-image {
+          position: relative;
+          z-index: 1;
+          width: 1250px;
+          height: 255px;
+          top: 50%;
+          left: -240%;
+        }
+
+        .kind-image {
+          position: absolute;
+          top: 100%;
+          left: 10%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          width: 1250px;
+          height: 450px;
+        }
+
+        .wordmark {
+          width: 250px;
+          position: absolute;
+          top: 200%;
+          left: 50%;
+          transform: translate(-10%, 10%);
+        }
+        /*text below  image*/
+        .textimg {
+          font-family: "Lora_Regular",sans-serif;
+          font-weight: 400;
+          font-size: 1.5rem;
+          top: -%;
+        }
+
+        ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+
+        li {
+          margin: 0 12px;
+        }
+
+        a {
+          color: #000;
+          text-decoration: none;
+          font-family: "TT Commons Bold", sans-serif;
+          font-size: 0.9rem;
+          font-weight: 600;
+          transition: all 0.2ms ease-in-out;
+        }
+        nav {
+          box-shadow: none;
+        }
+        ul li a:hover {
+          color: grey;
+        }
+        ul li:hover a.button {
+          color: white; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/favicon.svg" alt="Logo" width="50" height="50">
+            <h1>humankind</h1>
+        </div>
+        <div class ="wordmark">
+          <img src="/human.png" alt="human" width="80" class="human-image">
+          <img src="/kind.png" alt="kind" width="80" class="kind-image">
+        </div>
+        <div class ="textimg">
+          <h1>Creating a magical world for the kid in all of us</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="https://www.humankind.art/art">Art</a></li>
+            <li><a href="https://www.humankind.art/collectibles">Collectibles</a></li>
+            <li><a href="https://www.humankind.art/studios">Studios</a></li>
+            <li class="dropdown"><span class="arrow"></span>
+                <a href="#">Community</a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.humankind.art/studios">Fund</a></li>
+                  <li><a href="https://www.humankind.art/about">Carrers</a></li>
+                  <li><a href="https://www.humankind.art/contact">About</a></li>
+                  <li><a href="https://www.humankind.art/contact">Daily Doodles</a></li>
+                  <li><a href="https://www.humankind.art/contact">Discord</a></li>
+                </ul>
+                </li>
+            <li><a href="https://www.humankind.art/subscribe">Subscribe</a></li>
+            <li><a href="#" class="button">Burn a Lunchbox</a></li>
+        </nav>
+    </header>
+</body>
+</html>

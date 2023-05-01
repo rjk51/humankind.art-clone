@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'CustomFontName';
+    src: url('/62bd9b83ee7f1438f09ed724_TTCommonsProXBd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'TT Commons Bold', sans-serif;
+  }
+@font-face {
+    font-family: 'font2';
+    src: url('/62bd9a8876f885d35d4b6712_TTCommonsProRg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Lora_Regular';
+    src: url('/Lora_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+  body {
+    font-family: 'Lora_Regular', sans-serif;
+  }  
